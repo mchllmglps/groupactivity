@@ -1,6 +1,6 @@
     public class display{
         public static void main(String[] args) {
-            double num1, num2;
+        double num1, num2;
         char operator;
 
         Scanner input = new Scanner(System.in);
