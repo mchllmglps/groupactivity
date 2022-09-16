@@ -12,6 +12,7 @@ public class fruitsMain{
         Scanner input = new Scanner(System.in);
 
         String message_one = "Fruitshaking...";
+        
 
         System.out.print("Choose a fruit: ");
         fruitname = input.nextLine();
