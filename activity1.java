@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class activity1{
    
     // Addition
@@ -17,11 +19,10 @@ public class activity1{
     public static double divide(double num1, double num2){
         return num1 / num2;
     }
-}
 
-public class display{
-    public static void main(String[] args) {
-        double num1, num2;
+    public class display{
+        public static void main(String[] args) {
+            double num1, num2;
         char operator;
 
         Scanner input = new Scanner(System.in);
@@ -38,17 +39,14 @@ public class display{
 
         switch( operator ){
             case '+':
-                System.out.println(addition.add(num1, num2));
+                System.out.println(add(num1, num2));
                 break;
             case '-':
-                System.out.println(subtraction.subtract(num1, num2));
-                break;
-            case '*':
-                System.out.println(multiplication.multiply(num1, num2));
+                System.out.println(subtract(num1, num2));
                 break;
             case '/':
-                System.out.println(division.divide(num1, num2));
+                System.out.println(divide(num1, num2));
                 break;
-        }
-    }
+            }
+}
 }
