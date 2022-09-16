@@ -15,12 +15,17 @@ public class activity1{
     }
 
     // Multiplication
-    
-    // Division
 
     public static double multiply(double num1, double num2){
         return num1 * num2;
     }
+
+    // Division
+    
+    public static double divide(double num1, double num2){
+        return num1 / num2;
+    }
+
 
     public class display{
         public static void main(String[] args) {
