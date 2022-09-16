@@ -1,17 +1,3 @@
-public class activity1{
-   
-    // Addition
-   
-    public static double add(double num1, double num2){
-        return num1 + num2;
-    }
-
-    // Subtraction
-   
-    public static double subtract(double num1, double num2){
-        return num1 - num2;
-    }
-
     public class display{
         public static void main(String[] args) {
             double num1, num2;
